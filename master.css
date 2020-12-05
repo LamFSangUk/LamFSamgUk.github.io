@@ -17,9 +17,86 @@ section {
   color: black;
 }
 
+.img-cropper{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-profile {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
 .bg-main-top{
   background-color: #437FC7;
 }
+
+.list-info{
+  list-style: none;
+  padding-left: 1em;
+}
+
+.list-info li{
+  margin: 10px 0;
+  font-size: 20px;
+  padding-left: 1em;
+}
+
+.list-info li:before{
+  content:'';
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-image: url(icons/phone.svg);
+  background-size: cover;
+  background-position: center;
+  left: 15px;
+  transform: translateY(20%);
+}
+
+.list-info .list-info-loc:before{
+  background-image: url(icons/map_pin.svg);
+}
+
+.list-info .list-info-phone:before{
+  background-image: url(icons/phone.svg);
+}
+
+.list-info .list-info-mail:before{
+  background-image: url(icons/mail.svg);
+}
+
+/* Education */
+.list-edu{
+  list-style: none;
+}
+
+.list-edu li{
+  margin: 16px 0;
+}
+
+.list-edu li:before{
+  content:'';
+  width: 15px;
+  height: 15px;
+  position:absolute;
+  background-image: url(icons/edu.png);
+  background-size: cover;
+  background-position: center;
+  left: 2em;
+  transform: translateY(20%);
+}
+
+.list-edu li a{
+  color: black;
+}
+
+/* Publications */
 
 .pub-link{
   color: #437FC7;
