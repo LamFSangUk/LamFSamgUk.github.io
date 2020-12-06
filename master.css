@@ -114,3 +114,38 @@ section {
 .pub-link{
   color: #437FC7;
 }
+
+/* Projects */
+.list-prj li{
+  font-size: 14pt;
+  margin: 16px 0;
+}
+
+.list-prj li a{
+  color: #437FC7;
+}
+
+
+.prj-title{
+  padding-top: 100px;
+}
+
+.prj-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  width: auto;
+  height: auto;
+  padding-top: 2em;
+}
+
+@media screen and (max-width: 992px) {
+  .prj-img{
+    max-width: 100%;
+  }
+}
+
+.prj-img-cap{
+  text-align: center;
+}
