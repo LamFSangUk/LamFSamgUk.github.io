@@ -181,6 +181,7 @@ footer{
   padding-top: 48px;
   padding-bottom: 16px;
   background: #082333;
+  box-shadow: 0 50vh 0 50vh #082333;
 }
 
 footer p{
